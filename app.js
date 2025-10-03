@@ -104,7 +104,7 @@ window.addEventListener('scroll', updateActiveNavLink);
 function downloadCV() {
     // Create a simple alert for demo purposes
     // In a real implementation, this would link to an actual PDF file
-    alert('CV download feature would be implemented here. Please contact Ketan Pandey directly at +919599838692 or ERKETANPANDEYOFFICIAL@GMAIL.COM for the latest CV.');
+    alert('Please contact Ketan Pandey directly at ERKETANPANDEYOFFICIAL@GMAIL.COM for the latest CV.');
     
     // Alternative implementation with a mock PDF
     // const link = document.createElement('a');
