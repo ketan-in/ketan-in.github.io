@@ -1545,3 +1545,53 @@ html {
 .card {
   animation: fadeInUp 0.6s ease forwards;
 }
+
+/* --- New Styles for the Display Photo --- */
+
+/* Style the container for alignment */
+.hero-photo {
+    /* Ensures the photo is centered above the text */
+    text-align: center; 
+    margin-bottom: 30px; /* Space between the photo and the name/text */
+}
+
+/* Style the image itself */
+.display-photo {
+    /* Set a consistent size */
+    width: 200px; 
+    height: 200px;
+    
+    /* Makes the image perfectly round (Circular Avatar) */
+    border-radius: 50%; 
+    
+    /* Ensures the image covers the entire 200x200 area without stretching */
+    object-fit: cover; 
+    
+    /* Optional: Add a subtle border and shadow */
+    border: 5px solid rgba(255, 255, 255, 0.9); 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
+}
+
+/* --- Optional: Improve Hero Section Layout (especially on desktop) --- */
+
+/* You can modify the hero-content to place the photo and text side-by-side 
+   if you prefer a different layout on larger screens. */
+@media (min-width: 768px) {
+    .hero-content {
+        display: flex; /* Enable flexbox for side-by-side layout */
+        align-items: center; /* Vertically align items */
+        justify-content: center;
+        padding-top: 50px;
+    }
+    
+    .hero-photo {
+        /* Move the photo to the left */
+        margin-right: 50px; 
+        margin-bottom: 0; /* Remove bottom margin if placing side-by-side */
+    }
+    
+    .hero-text {
+        /* Adjust the text alignment if needed */
+        text-align: left; 
+    }
+}
