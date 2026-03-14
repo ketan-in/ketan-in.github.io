@@ -1558,8 +1558,8 @@ html {
 /* Style the image itself */
 .display-photo {
     /* Set a consistent size */
-    width: 200px; 
-    height: 200px;
+    width: 250px; 
+    height: 250px;
     
     /* Makes the image perfectly round (Circular Avatar) */
     border-radius: 50%; 
